@@ -11,7 +11,7 @@ return {
     show_changelog = true, -- show the changelog after performing an update
     auto_quit = false, -- automatically quit the current session after a successful update
     remotes = { -- easily add new remotes to track
-      --   ["remote_name"] = "https://remote_url.come/repo.git", -- full remote url
+      ["remote_name"] = "https://github.com/vandaimer/astronvim_config.git", -- full remote url
       --   ["remote2"] = "github_user/repo", -- GitHub user/repo shortcut,
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
